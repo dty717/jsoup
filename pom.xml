@@ -61,11 +61,7 @@
                 <artifactId>java17</artifactId>
                 <version>1.0</version>
               </signature>
-              <signature>
-                <groupId>net.sf.androidscents.signature</groupId>
-                <artifactId>android-api-level-8</artifactId>
-                <version>2.2_r3</version>
-              </signature>
+
             </configuration>
           </execution>
         </executions>
@@ -194,7 +190,6 @@
         <plugins>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-gpg-plugin</artifactId>
             <executions>
               <execution>
                 <id>sign-artifacts</id>
